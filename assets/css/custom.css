@@ -1,0 +1,745 @@
+/* DEFAUT */
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+/* BTN SCROL DAS SEÇOÕES COMEÇA*/
+.content .btn_scroll,
+.content_depoimentos .btn_scroll {
+	bottom: 0px;
+	height: 60px;
+	margin-left: -30px;
+	width: 60px;
+	left: 50%;
+	position: absolute;
+	text-align: center;
+}
+	.content .btn_scroll a,
+	.content_depoimentos .btn_scroll a {
+		background: url(../img/sprite_icons.png) top left no-repeat;
+		background-position: -305px 12px;
+		display: inline-block;
+		margin: 0 auto;
+		height: 50px;
+		text-align: center;
+		width: 50px;
+	}
+	.content.content_home .btn_scroll a {
+		background-position: 0px 10px;
+	}
+	.content.content_home .btn_scroll {
+		position: absolute;
+	}
+/* BTN SCROL DAS SEÇOÕES TERMINA*/
+
+/* HEADER CSS */
+#header,
+#header.menu_inicio {
+		background: rgba(108,115,159,.8);
+		transition: background .2s linear;
+		-webkit-transition: background .2s linear;
+		-moz-transition: background .2s linear;
+		-ms-transition: background .2s linear;
+		-o-transition: background .2s linear;
+}
+#header.menu_curso {
+	background: rgba(184,74,184,.8);
+}
+#header.menu_professor {
+	background: rgba(0,157,224,.8);
+}
+#header.menu_pqmatricular {
+	background: rgba(227,144,23,.8);
+}
+#header.menu_modulos {
+	background: rgba(181,102,232,.8);
+}
+#header.menu_vantagensaluno {
+	background: rgba(62,84,219,.8);
+}
+#header.menu_inscrevaseum {
+	background: rgba(227,23,105,.8);
+}
+	#header nav {
+		background: transparent;
+		border: 0;
+		margin: 0 auto;
+	}
+	#header nav .navbar-brand {
+		padding: 15px 0;
+		height: 80px;
+	}
+	.navbar-default .navbar-collapse {
+		background-color: transparent;
+		margin: 5px 0px;
+	}
+		.navbar-default .navbar-nav>li>a {
+			color: #fff;
+			max-width: 8em;
+		}
+		.navbar-default .navbar-nav>li>a:hover,
+		.navbar-default .navbar-nav>li>a:focus {
+			color: #fff;
+			font-weight: 600;
+		}
+
+/* HEADER CSS FIM */
+/* DEFAUT */
+
+/* GERAL CSS FIM */
+#main {
+	width: 100%
+}
+	#main > section {
+		position: relative;
+	}
+		#main > section > .content {
+			background-size: cover;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+/* GERAL CSS FIM */
+
+/* HOME - SECTOIN PRIMEIRA TELA */
+.home_int {
+
+}
+	.home_int .content_home {
+			min-height: 100%;
+	}
+		.home_int .content_home > .container {
+			height: 100%;
+			position: relative;
+		}
+		.home_int .content_home > .container .play {
+			background: url(../img/btn_play.png) center center no-repeat;
+			height: 125px;
+			width: 125px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -62px 0 0 -62px;
+			cursor: pointer;
+		}
+		.home_int .content_home .tit_home {
+			bottom: 80px;
+			padding: 0 10%;
+			position: absolute;
+			text-align: center;
+			width: 100%;
+		}
+			.home_int .content_home .tit_home h1 {
+				background-color: rgba(108,115,159,.4);
+				color: #fff;
+				font-style: italic;
+				margin: 0;
+				line-height: 30px;
+				display: inline-block;
+				padding: 10px;
+				font-size: 30px;
+			}
+				.home_int .content_home .tit_home h1 strong {
+					font-weight: 600;
+				}
+			.home_int .content_home .tit_home h1:last-child {
+				padding: 0px 10px 10px;
+			}
+/* HOME - SECTOIN PRIMEIRA TELA FIM */
+
+/* CURSO - SECTOIN SEGUNDA TELA COMEÇA */
+.curso_int {}
+	.curso_int .content_curso {}
+		.curso_int .content_curso .logo_produto {}
+		.curso_int .content_curso .infos {
+			color: #fff;
+			padding-top: 100px;
+		}
+			.curso_int .content_curso .infos h1 {
+				font-weight: 600;
+				font-size: 3.5em;
+				margin: 0;
+			}
+			.curso_int .content_curso .infos h2 {
+				font-size: 3.5em;
+				margin: 0;
+			}
+			.curso_int .content_curso .infos p {
+				margin-top: 1em;
+				font-size: 1.2em;
+				padding-right: 10em;
+			}
+		.curso_int .content_curso .icones_cursos {
+			color: #fff;
+			list-style: none;
+			text-align: center;
+		}
+			.curso_int .content_curso .icones_cursos li {
+				height: 160px;
+				top: 60px;
+				position: relative;
+				width: 14%;
+				display: table-cell;
+				float: left;
+				margin-bottom: 90px;
+			}
+				.curso_int .content_curso .icones_cursos li:before {
+					content: "";
+					position: absolute;
+					width: 100px;
+					height: 100px;
+					top: -13px;
+					left: 29px;
+					border: 1px solid;
+					border-radius: 50%;
+				}
+				.curso_int .content_curso .icones_cursos li img {
+					transition: transform .3s ease;
+					-webkit-transition: transform .3s ease;
+					-moz-transition: transform .3s ease;
+					-ms-transition: transform .3s ease;
+					-o-transition: transform .3s ease;
+					
+					transform: scale(.8);
+					-webkit-transform: scale(.8);
+					-moz-transform: scale(.8);
+					-ms-transform: scale(.8);
+					-o-transform: scale(.8);
+				}
+					.curso_int .content_curso .icones_cursos li:hover img {
+						transform: scale(.9);
+						-webkit-transform: scale(.9);
+						-moz-transform: scale(.9);
+						-ms-transform: scale(.9);
+						-o-transform: scale(.9);
+					}
+				.curso_int .content_curso .icones_cursos li p {
+					margin: 0 auto;
+					position: relative;
+					top: 25px;
+					vertical-align: top;
+					padding: 0 2em;
+					font-size: 16px;
+					line-height: 20px;
+				}
+/* CURSO - SECTOIN SEGUNDA TELA FIM */
+
+/* PROFESSOR - SECTOIN TERCEIRA TELA COMEÇO */
+.professor_int {}
+	.professor_int .content_professor {}
+		.professor_int .content_professor .infos {
+			color: #fff;
+		}
+			.professor_int .content_professor .infos h2 {
+				margin-top: 4em;
+			}
+			.professor_int .content_professor .infos p {
+				margin: 8em 0 0;
+			}
+		.professor_int .content_professor .meio {
+			padding: 0 7em;
+		}
+			.professor_int .content_professor .meio  .foto_professor {
+				border: 2px solid #fff;
+				border-radius: 50%;
+				margin: 8em auto 0;
+				height: 270px;
+				text-align: center;
+				overflow: hidden;
+				width: 270px;
+			}
+				.professor_int .content_professor .meio .foto_professor img {}
+			.professor_int .content_professor .meio .title_professor {
+				color: #fff;
+				font-size: 2em;
+				text-align: center;
+			}
+			.professor_int .content_professor .meio .desc_professor {
+				text-align: center;
+				color: #fff;
+			}
+			.professor_int .content_professor .meio .icones_media {
+				color: #fff;
+				list-style: none;
+				text-align: center;
+				padding: 0;
+			}
+				.professor_int .content_professor .meio .icones_media a {
+					background: url(../img/sprite_icons.png) top left no-repeat;
+					width: 50px;
+					height: 50px;
+					display: inline-block;
+					border: 1px solid #fff;
+					border-radius: 50%;
+					margin: 1em;
+					transition: background-color .2s ease;
+					-webkit-transition: background-color .2s ease;
+					-moz-transition: background-color .2s ease;
+					-ms-transition: background-color .2s ease;
+					-o-transition: background-color .2s ease;
+				}
+					.professor_int .content_professor .meio .icones_media a.face {
+						background-position: 10px -99px;
+					}
+					.professor_int .content_professor .meio .icones_media a.twitter {			
+						background-position: -73px -99px;
+					}
+					.professor_int .content_professor .meio .icones_media a.linkedin {
+						background-position: -152px -99px;
+					}
+					.professor_int .content_professor .meio .icones_media a.plus {
+						background-position: -234px -99px;
+					}
+				.professor_int .content_professor .meio .icones_media a:hover {
+					background-color: #1a87bd;
+				}
+		.professor_int .content_professor .timeline {
+			margin-top: 9em;
+		}
+			.professor_int .content_professor .timeline ul {
+				color: #fff;
+				list-style: none;
+				padding: 0;
+			}
+				.professor_int .content_professor .timeline li {
+					border-left: 1px solid;
+					margin-left: 0px;
+					padding-bottom: 15px;
+					padding-left: 15px;
+					position: relative;
+				}
+					.professor_int .content_professor .timeline li:before {
+						content: "";
+						position: absolute;
+						width: 10px;
+						height: 10px;
+						background: #fff;
+						border-radius: 50%;
+						left: -5px;
+						top: 5px;
+					}
+					.professor_int .content_professor .timeline li:last-child {
+						padding-bottom: 0;
+					}
+/* PROFESSOR - SECTOIN TERCEIRA TELA FIM */
+
+/* DEPOIMENTOS - SECTOIN QUARTA TELA COMEÇA */
+.depoimentos_int {}
+	.depoimentos_int .content_depoimentos {
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 400px;
+	}
+		.depoimentos_int .content_depoimentos h1 {
+			color: #fff;
+			margin-bottom: 1em;
+			margin-top: 0;
+			width: 50%;
+		}
+		.depoimentos_int.s7 .content_depoimentos {
+			min-height: 530px;
+		}
+		.depoimentos_int.s7 .content_depoimentos h1 {
+			margin-top: 4em;
+		}
+		.depoimentos_int .content_depoimentos .carousel {}
+			.depoimentos_int .content_depoimentos .carousel .int_carousel {
+				color: #fff;
+			}
+				.depoimentos_int .content_depoimentos .carousel .int_carousel .txt_depoimento {
+					font-style: italic;
+					font-size: 1.3em;
+					padding: 0 1em 0 6em;
+				}
+				.depoimentos_int .content_depoimentos .carousel .int_carousel .img_tit_depoimento {
+					padding: 0 6em 0 1em;
+					position: relative;
+				}
+					.depoimentos_int .content_depoimentos .carousel .int_carousel .img_depoimento {
+						display: inline-block;
+						width: 30%;
+						height: 100%;
+						border-radius: 50%;
+						overflow: hidden;
+					}
+						.depoimentos_int .content_depoimentos .carousel .int_carousel .img_depoimento img {
+							display: inline-block;
+							border: none;
+							margin: 0;
+						}
+					.depoimentos_int .content_depoimentos .carousel .int_carousel .tit_depoimento {
+						display: inline-block;
+						vertical-align: top;
+						margin: 0;
+						padding: 1.8em 0 0 1em;
+						width: 65%;
+						font-size: 1.2em;
+					}
+					.depoimentos_int .content_depoimentos .carousel .int_carousel .img_tit_depoimento p {
+						margin: 0 0 0 1em;
+						top: 55px;
+						position: absolute;
+						left: 135px;
+						line-height: 1em;
+					}
+		.depoimentos_int .content_depoimentos .btn_porque_matricular {}
+/* DEPOIMENTOS - SECTOIN QUARTA TELA FIM */
+
+/* PORQUE SE MATRICULAR PQ QUEM - SECTOIN QUINTA TELA COMEÇO */
+.porque_matricular_int {}
+	.porque_matricular_int .content_porque_matricular {
+		padding: 9em 0 0;
+	}
+		.porque_matricular_int .content_porque_matricular .img_pqquem {
+			border-radius: 50%;
+			border: 1px solid #fff;
+			height: 150px;
+			width: 150px;
+			text-align: center;
+			vertical-align: middle;
+		}
+			.porque_matricular_int .content_porque_matricular .img_pqquem img {
+				margin-top: .5em;
+				transition: transform .3s ease;
+				-webkit-transition: transform .3s ease;
+				-moz-transition: transform .3s ease;
+				-ms-transition: transform .3s ease;
+				-o-transition: transform .3s ease;
+
+				transform: scale(.8);
+				-webkit-transform: scale(.8);
+				-moz-transform: scale(.8);
+				-ms-transform: scale(.8);
+				-o-transform: scale(.8);
+			}
+				.porque_matricular_int .content_porque_matricular .img_pqquem img:hover {
+					transform: scale(.9);
+					-webkit-transform: scale(.9);
+					-moz-transform: scale(.9);
+					-ms-transform: scale(.9);
+					-o-transform: scale(.9);
+				}
+			.porque_matricular_int .content_porque_matricular .txt_pqQuem {}
+				.porque_matricular_int .content_porque_matricular .txt_pqQuem h1 {
+					color: #fff;
+					margin-bottom: 1em;
+					margin-top: 0.7em;
+				}
+				.porque_matricular_int .content_porque_matricular .txt_pqQuem p {
+					color: #fff;
+					font-size: 1.2em;
+				}
+/* PORQUE SE MATRICULAR PQ QUEM - SECTOIN QUINTA TELA FIM */
+
+/* PORQUE SE MATRICULAR SEGREDOS - SECTOIN SEXTA TELA COMEÇO */
+.porque_matricular_segredos_int .descricao_segredos {
+	color: #fff;
+	margin: 9em auto 5em;
+}
+	.porque_matricular_segredos_int .descricao_segredos h1 {
+		margin: 0 0 1em;
+		font-size: 1.9em;
+	}
+	.porque_matricular_segredos_int .descricao_segredos p {
+		font-size: 1.1em;
+		line-height: 1.2em;
+	}
+	.porque_matricular_segredos_int .itens_segredos {
+		margin: 9em auto 5em;
+	}
+		.porque_matricular_segredos_int .itens_segredos .item_segredo {
+			color: #fff;
+			margin-bottom: 2em;
+		}
+			.porque_matricular_segredos_int .itens_segredos .item_segredo .img_segredos {
+				width: 80px;
+				height: 80px;
+				border: 1px solid #fff;
+				border-radius: 50%;
+			}
+				.porque_matricular_segredos_int .itens_segredos .item_segredo .img_segredos img {
+					transition: transform .3s ease;
+					-webkit-transition: transform .3s ease;
+					-moz-transition: transform .3s ease;
+					-ms-transition: transform .3s ease;
+					-o-transition: transform .3s ease;
+
+					transform: scale(.8);
+					-webkit-transform: scale(.8);
+					-moz-transform: scale(.8);
+					-ms-transform: scale(.8);
+					-o-transform: scale(.8);
+				}
+				.porque_matricular_segredos_int .itens_segredos .item_segredo .img_segredos img:hover {
+					transform: scale(1);
+					-webkit-transform: scale(1);
+					-moz-transform: scale(1);
+					-ms-transform: scale(1);
+					-o-transform: scale(1);
+				}
+			.porque_matricular_segredos_int .itens_segredos .item_segredo h1 {
+				font-size: 1.4em;
+				margin: 0.3em 0 1em;
+			}
+			.porque_matricular_segredos_int .itens_segredos .item_segredo p {
+				font-size: 1.1em;
+				line-height: 1.2em;
+			}
+/* PORQUE SE MATRICULAR SEGREDOS - SECTOIN SEXTA TELA FIM */
+
+/* PORQUE SE MATRICULAR SEGREDOS - SECTOIN SETIMA TELA COMEÇO */
+.porque_matricular_beneficios_int {}
+	.porque_matricular_beneficios_int > div > div {
+		padding-top: 9em;
+		color: #fff;
+	}
+	.porque_matricular_beneficios_int h1 {
+		margin: 0;
+		padding: 0 15px;
+	}
+		.porque_matricular_beneficios_int h1:last-child {
+			font-size: 2em;
+		}
+	.porque_matricular_beneficios_int ul {
+		margin: 0 0 3em;
+		padding: 0 15px;
+		display: table;
+		vertical-align: middle;
+	}
+		.porque_matricular_beneficios_int ul li {
+			float: left;
+			font-size: 1.2em;
+			width: 50%;
+			padding: 0.7em 0 0.7em 3em;
+			position: relative;
+			display: table-cell;
+			vertical-align: middle;
+		}
+			.porque_matricular_beneficios_int ul li:before {
+				background: url(../img/sprite_icons.png) top left no-repeat;
+				height: 40px;
+				width: 40px;
+				position: absolute;
+				content: "";
+				background-position: -151px 1px;
+				left: 0;
+				top: 0.5em;
+			}
+/* PORQUE SE MATRICULAR SEGREDOS - SECTOIN SETIMA TELA FIM */
+
+/* MÓDULOS - SECTOIN OITAVA TELA COMEÇO */
+.modulos_int {}
+	.modulos_int .content_modulos {
+		padding-top: 9em;
+	}
+		.modulos_int .content_modulos .desc_post_modulos {
+			margin-bottom: 3em;
+		}
+			.modulos_int .content_modulos .desc_post_modulos h1,
+			.modulos_int .content_modulos .desc_post_modulos h2 {
+				color: #fff;
+				margin: 0;
+			}
+		.modulos_int .content_modulos .itens_modulos {
+			list-style: none;
+			padding: 0;
+		}
+			.modulos_int .content_modulos .itens_modulos li {}
+				.modulos_int .content_modulos .itens_modulos li span {
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					color: #fff;
+					float: left;
+					height: 200px;
+					width: 100%;
+					position: relative;
+				}
+					.modulos_int .content_modulos .itens_modulos li span p {
+						padding: 10px 5%;
+					}
+					.modulos_int .content_modulos .itens_modulos li span h3 {
+						background: rgba(67,42,100,.6);
+						position: absolute;
+						font-size: 1em;
+						bottom: 0;
+						width: 100%;
+						padding: 10px 5%;
+						min-height: 50px;
+						margin: 0;
+					}
+/* MÓDULOS - SECTOIN OITAVA TELA FIM */
+
+/* VANTAGENS - SECTOIN NONA TELA COMEÇO */
+.vantagens_int {
+	color: #fff;
+}
+	.vantagens_int .content_vantagens {}
+		.vantagens_int .content_vantagens .desc_vantagens {
+			margin-top: 3.6em;
+		}
+		.vantagens_int .content_vantagens .itens_vantagens,
+		.inscreva_1_int .content_inscreva_1 .itens_inscreva_1 {
+			list-style: none;
+			margin-bottom: 7em;
+			padding: 0;
+		}
+			.vantagens_int .content_vantagens .itens_vantagens li,
+			.inscreva_1_int .content_inscreva_1 .itens_inscreva_1 li {
+				padding-left: 55px;
+			}
+				.vantagens_int .content_vantagens .itens_vantagens li h2,
+				.inscreva_1_int .content_inscreva_1 .itens_inscreva_1 li h2 {
+					font-size: 1.5em;
+					margin-left: 0px;
+					position: relative;
+				}
+				.vantagens_int .content_vantagens .itens_vantagens li h2:before,
+				.inscreva_1_int .content_inscreva_1 .itens_inscreva_1 li h2:before {
+					content: "";
+					position: absolute;
+					background: url(../img/sprite_icons.png) top left no-repeat;
+					width: 40px;
+					height: 40px;
+					left: -45px;
+					top: -10px;
+					background-position: -150px 1px;
+				}
+/* VANTAGENS - SECTOIN NONA TELA FIM */
+
+/* INSCREVA - SECTOIN DÉCIMA TELA COMEÇO */
+.inscreva_int {}
+	.inscreva_int .content_inscreva {}
+		.inscreva_int .content_inscreva .desc_inscreva {
+			padding-top: 3em;
+			text-align: center;
+			color: #fff;
+			font-size: 4em;
+			padding: 2em 4em 0;
+			line-height: .9em;
+		}
+		.inscreva_int .content_inscreva .itens_inscreva {}
+			.inscreva_int .content_inscreva .itens_inscreva > div {
+				text-align: center;
+			}
+				.inscreva_int .content_inscreva .itens_inscreva > div:first-child {
+					text-align: left;
+					color: #fff;
+					margin-top: 12em;
+				}
+					.inscreva_int .content_inscreva .itens_inscreva > div:first-child:after {
+						content: "";
+						position: absolute;
+						width: 80px;
+						height: 40px;
+						right: -30px;
+						top: 80px;
+						background: url(../img/seta_inscreva.png) top right no-repeat;
+					}
+					.inscreva_int .content_inscreva .itens_inscreva > div:first-child h3 {
+						line-height: 1em;
+						display: inline-block;
+						margin: 0;
+						min-height: 0px;
+						clear: both;
+						width: 100%;
+					}
+					.inscreva_int .content_inscreva .itens_inscreva > div:first-child strong {
+						display: block;
+					}
+				.inscreva_int .content_inscreva .itens_inscreva > div:last-child {
+					margin-top: 4em;
+				}
+				.inscreva_int .content_inscreva .itens_inscreva > div a {
+					margin: 4em auto 1em;
+					display: inline-block;
+				}
+				.inscreva_int .content_inscreva .itens_inscreva > div p {
+					color: #fff;
+					font-size: 0.8em;
+				}
+				.inscreva_int .content_inscreva .itens_inscreva > div:last-child p {
+					font-size: 0.9em;
+					padding-right: 2em;
+				}
+				.inscreva_int .content_inscreva .itens_inscreva span {
+					margin: 2em auto 0;
+					padding: 2em 0 0;
+					border-top: 1px dashed #ebabbc;
+				}
+					.inscreva_int .content_inscreva .itens_inscreva span h4 {
+						color: #fff;
+						font-size: 2.3em;
+						margin: 0;
+					}
+		.inscreva_int .content_inscreva footer {
+			margin: 4em auto 1em;
+			border-bottom: 1px solid #fff;
+			padding-bottom: 1.5em;
+		}
+			.inscreva_int .content_inscreva footer a {}
+/* INSCREVA - SECTOIN DÉCIMA TELA FIM */
+
+/* DÉCIMA PRIMEIRA TELA INSCREVA-SE - OPORTUNIDADE COMEÇO */
+.inscreva_1_int {}
+	.inscreva_1_int .content_inscreva_1 {
+		color: #fff;
+	}
+		.inscreva_1_int .content_inscreva_1 .desc_inscreva_1 {
+			margin-top: 9em;
+			margin-bottom: 3em;
+		}
+			.inscreva_1_int .content_inscreva_1 .itens_inscreva_1 {
+				list-style: none;
+			}
+				.inscreva_1_int .content_inscreva_1 .itens_inscreva_1 li {
+				}
+					.inscreva_1_int .content_inscreva_1 .itens_inscreva_1 li h2 {}
+					.inscreva_1_int .content_inscreva_1 .itens_inscreva_1 li p {}
+		.logo_footer {
+			display: inline-block;
+		}
+		.social_footer {
+			display: inline-block;
+			float: right;
+		}
+			.social_footer ul {
+				list-style: none;
+				padding: 0;
+				margin: 10px 0 0;
+			}
+				.social_footer ul li {
+					background: url(../img/sprite_icons.png) top left;
+					display: inline-block;
+					height: 20px;
+					width: 20px;
+				}
+				.social_footer ul li.icon_face {
+					background-position: -5px -65px;
+				}
+				.social_footer ul li.icon_youtube {
+					background-position: -28px -65px;
+				}
+				.social_footer ul li.icon_prezi {
+					background-position: -57px -65px;
+					width: 30px;
+				}
+				.social_footer ul li.icon_four {
+					background-position: -94px -65px;
+				}
+				.social_footer ul li.icon_gplus {
+					background-position: -120px -65px;
+				}
+				.social_footer ul li.icon_linkin {
+					background-position: -145px -65px;
+				}
+				.social_footer ul li.icon_twitter {
+					background-position: -172px -65px;
+				}
+					.social_footer ul li a {
+						width: 20px;
+						height: 20px;
+						display: block;
+					}
+/* DÉCIMA PRIMEIRA TELA INSCREVA-SE - OPORTUNIDADE FIM */
